@@ -16,7 +16,7 @@ class UserProfile(models.Model):                # Extender clase usuario
         ('arrendatario', 'Arrendatario'),
     )
     direccion=models.CharField(max_length=255)
-    telefono=models.CharField(max_length=12)
+    telefono=models.CharField(max_length=12, null=True)
     tipo=models.CharField(max_length=20, choices=tipos)
     user=models.OneToOneField(User, related_name='user_profile', on_delete=models.CASCADE)
     #  (direccion, telefono, tipo, rut):
@@ -42,8 +42,8 @@ class Inmueble(models.Model):
     cantidad_habitaciones =models.IntegerField(validators=[MinValueValidator(1)], default=1)
     cantidad_baños=models.IntegerField(validators=[MinValueValidator(1)], default=1)
     dirección=models.CharField(max_length=255) 
-    tipo_inmueble=models.CharField(max_length=12, choices=inmuebles)
     precio_arriendo=models.IntegerField(validators=[MinValueValidator(1)], default=1)
+    tipo_inmueble=models.CharField(max_length=12, choices=inmuebles)
     comuna=models.ForeignKey(Comuna, related_name='inmuebles', on_delete=models.RESTRICT)     
     propietario=models.ForeignKey(User, related_name='inmuebles', on_delete=models.RESTRICT)
 
