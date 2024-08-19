@@ -1,0 +1,122 @@
+[
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 1,
+        "fields": {
+            "username": "ericgarcia",
+            "password": "32aY)7Hx+)",
+            "rut": 649572362,
+            "direccion": "03872 Morgan Streets\nElizabethmouth, CO 57421",
+            "telefono": 865226142548,
+            "id_tipo_user": 2
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 2,
+        "fields": {
+            "username": "michellehunter",
+            "password": "G5JpM4jP#)",
+            "rut": 539304897,
+            "direccion": "PSC 4433, Box 7024\nAPO AA 72091",
+            "telefono": 268573444662,
+            "id_tipo_user": 2
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 3,
+        "fields": {
+            "username": "gardnernancy",
+            "password": "^4vzHCmqGP",
+            "rut": 204644364,
+            "direccion": "599 Miller Plaza Apt. 157\nJoshualand, MA 96338",
+            "telefono": 561048646455,
+            "id_tipo_user": 1
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 4,
+        "fields": {
+            "username": "david71",
+            "password": "EBFX7Rjk%3",
+            "rut": 361119877,
+            "direccion": "7876 Gabriel Neck\nBenjaminborough, IN 53817",
+            "telefono": 229847745512,
+            "id_tipo_user": 2
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 5,
+        "fields": {
+            "username": "joshuaeverett",
+            "password": "%Ci69W9k&c",
+            "rut": 882888968,
+            "direccion": "90133 Marc Mill Apt. 071\nDorisport, CO 74798",
+            "telefono": 371753780212,
+            "id_tipo_user": 2
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 6,
+        "fields": {
+            "username": "gregoryrebecca",
+            "password": "Bpi1J97OT*",
+            "rut": 211571939,
+            "direccion": "700 Jessica Flat Suite 250\nFullertown, CT 05704",
+            "telefono": 154802286074,
+            "id_tipo_user": 1
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 7,
+        "fields": {
+            "username": "scottthomas",
+            "password": "KqYS_DD)+3",
+            "rut": 733612564,
+            "direccion": "Unit 1397 Box 6394\nDPO AP 46676",
+            "telefono": 854781484271,
+            "id_tipo_user": 1
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 8,
+        "fields": {
+            "username": "cynthia43",
+            "password": "^6CAgntA6r",
+            "rut": 945439923,
+            "direccion": "273 Ellen Roads\nPort Deborah, TN 62380",
+            "telefono": 460302806416,
+            "id_tipo_user": 2
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 9,
+        "fields": {
+            "username": "stephanie62",
+            "password": "Xl2R9wSd$(",
+            "rut": 869108324,
+            "direccion": "Unit 9461 Box 1350\nDPO AE 68492",
+            "telefono": 851231111680,
+            "id_tipo_user": 2
+        }
+    },
+    {
+        "model": "corredora_propiedades.usuario",
+        "pk": 10,
+        "fields": {
+            "username": "palmermark",
+            "password": "%q3@fSg!7&",
+            "rut": 595057414,
+            "direccion": "6137 William Mount Suite 526\nMorrisonside, MI 17909",
+            "telefono": 782272246762,
+            "id_tipo_user": 2
+        }
+    }
+]

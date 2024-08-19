@@ -1,0 +1,87 @@
+[
+    {
+        "model": "corredora_propiedades.inmuebles",
+        "pk": 1,
+        "fields": {
+            "owner": 3,
+            "id_tipo_inmueble": 2,
+            "id_comuna": 2,
+            "id_region": 2,
+            "nombre_inmueble": "Matthew Jensen",
+            "descripcion": "Understand debate television season beat. Painting weight relate guy town few play. Where fear night seem fill move.\nHim they simply a never cut clear line. Him alone start sport.",
+            "m2_construido": 98.46820203918456,
+            "numero_banos": 2,
+            "numero_hab": 4,
+            "direccion": "507 Christopher Spring\nHoltbury, SC 57531",
+            "inquilino": 6
+        }
+    },
+    {
+        "model": "corredora_propiedades.inmuebles",
+        "pk": 2,
+        "fields": {
+            "owner": 2,
+            "id_tipo_inmueble": 2,
+            "id_comuna": 2,
+            "id_region": 1,
+            "nombre_inmueble": "Brittany Todd",
+            "descripcion": "Decide measure stage dog. Usually third article office newspaper billion energy. Bed television right forget foot forward well.",
+            "m2_construido": 127.03483302725044,
+            "numero_banos": 5,
+            "numero_hab": 6,
+            "direccion": "450 Gonzalez Meadow Apt. 075\nKristophershire, OK 72548",
+            "inquilino": 7
+        }
+    },
+    {
+        "model": "corredora_propiedades.inmuebles",
+        "pk": 3,
+        "fields": {
+            "owner": 3,
+            "id_tipo_inmueble": 3,
+            "id_comuna": 1,
+            "id_region": 2,
+            "nombre_inmueble": "Katherine Salazar",
+            "descripcion": "West this service woman. Picture whom listen appear behind child alone. Out parent push together discussion stuff test.",
+            "m2_construido": 461.6598371552259,
+            "numero_banos": 5,
+            "numero_hab": 6,
+            "direccion": "815 Frye Inlet Apt. 812\nKellytown, TX 62147",
+            "inquilino": 8
+        }
+    },
+    {
+        "model": "corredora_propiedades.inmuebles",
+        "pk": 4,
+        "fields": {
+            "owner": 1,
+            "id_tipo_inmueble": 1,
+            "id_comuna": 2,
+            "id_region": 1,
+            "nombre_inmueble": "Jerome Bruce",
+            "descripcion": "Behind notice firm nearly sea child rather contain. Which military light under know. Dinner at agreement clearly occur.",
+            "m2_construido": 455.25357570640824,
+            "numero_banos": 4,
+            "numero_hab": 6,
+            "direccion": "57275 Montgomery Square\nJimmytown, AR 87762",
+            "inquilino": 9
+        }
+    },
+    {
+        "model": "corredora_propiedades.inmuebles",
+        "pk": 5,
+        "fields": {
+            "owner": 1,
+            "id_tipo_inmueble": 2,
+            "id_comuna": 1,
+            "id_region": 1,
+            "nombre_inmueble": "Justin Sullivan",
+            "descripcion": "But receive air act professor. Research mind senior.\nShould along fast yet. Whose especially control image day despite. Know information ago staff two say exactly rather.",
+            "m2_construido": 187.2687893810013,
+            "numero_banos": 2,
+            "numero_hab": 10,
+            "direccion": "724 Snyder Isle\nEast Toddfurt, VI 76594",
+            "inquilino": 10
+        }
+    }
+]

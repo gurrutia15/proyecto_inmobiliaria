@@ -1,0 +1,16 @@
+[
+    {
+        "model": "corredora_propiedades.tipousuario",
+        "pk": 1,
+        "fields": {
+            "tipo_user": "Arrendatario"
+        }
+    },
+    {
+        "model": "corredora_propiedades.tipousuario",
+        "pk": 2,
+        "fields": {
+            "tipo_user": "Arrendador"
+        }
+    }
+]
