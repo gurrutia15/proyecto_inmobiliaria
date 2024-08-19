@@ -41,10 +41,8 @@ class Inmueble(models.Model):
     cantidad_estacionamientos = models.IntegerField(validators=[MinValueValidator(0)], default=0)
     cantidad_habitaciones =models.IntegerField(validators=[MinValueValidator(1)], default=1)
     cantidad_baños=models.IntegerField(validators=[MinValueValidator(1)], default=1)
-    dirección=models.CharField(max_length=255) 
+    direccion=models.CharField(max_length=255) 
     precio_arriendo=models.IntegerField(validators=[MinValueValidator(1)], default=1)
     tipo_inmueble=models.CharField(max_length=12, choices=inmuebles)
     comuna=models.ForeignKey(Comuna, related_name='inmuebles', on_delete=models.RESTRICT)     
     propietario=models.ForeignKey(User, related_name='inmuebles', on_delete=models.RESTRICT)
-
-    # 1:12:31

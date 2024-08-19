@@ -21,6 +21,26 @@ def crear_inmueble(nombre:str, descripcion:str, m2_construidos:int, m2_totales:i
     )
     return True
 
+def editar_inmueble(inmueble_id:int, nombre:str, descripcion:str, m2_construidos:int, m2_totales:int, cantidad_estacionamientos:int, cantidad_habitaciones:int, cantidad_baños:int, direccion:str, precio_arriendo:int, tipo_inmueble:str, comuna:str, rut_propietario:str, imagen:object):
+    inmueble = Inmueble.objects.get(id=inmueble_id)
+    comuna = Comuna.objects.get(cod=comuna)
+    propietario = User.objects.get(username=rut_propietario)
+    inmueble.nombre = nombre
+    inmueble.descripcion = descripcion
+    inmueble.m2_construidos = m2_construidos
+    inmueble.m2_totales = m2_totales
+    inmueble.cantidad_estacionamientos = cantidad_estacionamientos
+    inmueble.cantidad_habitaciones = cantidad_habitaciones
+    inmueble.cantidad_baños = cantidad_baños
+    inmueble.direccion = direccion
+    inmueble.precio_arriendo = precio_arriendo
+    inmueble.tipo_inmueble = tipo_inmueble
+    inmueble.comuna = comuna
+    inmueble.propietario = propietario
+    inmueble.imagen = imagen
+    inmueble.save()
+    return True
+
 def crear_user(username:str, first_name:str, last_name:str, email:str, password:str, pass_confirm:str, direccion:str, tipo:str='arrendatario', telefono:str=None) -> bool:
     if password != pass_confirm:
         # messages.error(request, 'Las contraseñas no coinciden')
@@ -44,3 +64,24 @@ def crear_user(username:str, first_name:str, last_name:str, email:str, password:
     )
     # messages.success(request, 'Usuario creado con éxito! Por favor, ingrese')
     return True
+
+def eliminar_inmueble(inmueble_id):
+    Inmueble.objects.get(id=inmueble_id).delete()
+    return True
+
+def eliminar_user(rut:str):
+    eliminar = User.objects.get(username=rut)
+    eliminar.delete()
+    return True
+
+def editar_user_sin_password(rut:str, first_name:str, last_name:str, email:str, direccion:str, tipo:str, telefono:str=None):
+    user = User.objects.get(username=rut)
+    user.first_name = first_name
+    user.last_name = last_name
+    user.email = email
+    user.save()
+    user_profile = UserProfile.objects.get(user=user)
+    user_profile.direccion = direccion
+    user_profile.telefono = telefono
+    user_profile.tipo = tipo
+    user_profile.save()
