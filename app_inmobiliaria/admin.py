@@ -3,6 +3,7 @@ from .models import UserProfile
 
 # Register your models here.
 class UserProfileAdmin(admin.ModelAdmin):
-    list_display = ['direccion', 'tipo', 'user']
+    # list_display = ['direccion', 'tipo', 'user']
+    pass
 
 admin.site.register(UserProfile, UserProfileAdmin)

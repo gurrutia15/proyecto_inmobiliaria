@@ -1,6 +1,6 @@
 [
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 1,
         "fields": {
             "username": "ericgarcia",
@@ -12,7 +12,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 2,
         "fields": {
             "username": "michellehunter",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 3,
         "fields": {
             "username": "gardnernancy",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 4,
         "fields": {
             "username": "david71",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 5,
         "fields": {
             "username": "joshuaeverett",
@@ -60,7 +60,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 6,
         "fields": {
             "username": "gregoryrebecca",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 7,
         "fields": {
             "username": "scottthomas",
@@ -84,7 +84,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 8,
         "fields": {
             "username": "cynthia43",
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 9,
         "fields": {
             "username": "stephanie62",
@@ -108,7 +108,7 @@
         }
     },
     {
-        "model": "corredora_propiedades.usuario",
+        "model": "app_inmobiliaria.usuario",
         "pk": 10,
         "fields": {
             "username": "palmermark",

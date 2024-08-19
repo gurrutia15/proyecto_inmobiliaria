@@ -1,20 +1,20 @@
 [
     {
-        "model": "corredora_propiedades.tipoinmueble",
+        "model": "app_inmobiliaria.tipoinmueble",
         "pk": 1,
         "fields": {
             "tipo_inmueble": "Casa"
         }
     },
     {
-        "model": "corredora_propiedades.tipoinmueble",
+        "model": "app_inmobiliaria.tipoinmueble",
         "pk": 2,
         "fields": {
             "tipo_inmueble": "Departamento"
         }
     },
     {
-        "model": "corredora_propiedades.tipoinmueble",
+        "model": "app_inmobiliaria.tipoinmueble",
         "pk": 3,
         "fields": {
             "tipo_inmueble": "Parcela"

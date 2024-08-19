@@ -1,7 +1,7 @@
 [
     {
         "model": "app_inmobiliaria.region",
-        "pk": 1,
+        "pk": 15,
         "fields": {
             "nombre": "Arica y Parinacota"
         }
@@ -11,7 +11,7 @@
         "pk": 1,
         "fields": {
             "nombre": "Arica",
-            "region": 1
+            "region": 15
         }
     },
     {
@@ -19,7 +19,7 @@
         "pk": 2,
         "fields": {
             "nombre": "Camarones",
-            "region": 1
+            "region": 15
         }
     },
     {
@@ -27,7 +27,7 @@
         "pk": 3,
         "fields": {
             "nombre": "Putre",
-            "region": 1
+            "region": 15
         }
     },
     {
@@ -35,12 +35,12 @@
         "pk": 4,
         "fields": {
             "nombre": "General Lagos",
-            "region": 1
+            "region": 15
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 2,
+        "pk": 1,
         "fields": {
             "nombre": "Tarapacá"
         }
@@ -50,7 +50,7 @@
         "pk": 5,
         "fields": {
             "nombre": "Iquique",
-            "region": 2
+            "region": 1
         }
     },
     {
@@ -58,7 +58,7 @@
         "pk": 6,
         "fields": {
             "nombre": "Alto Hospicio",
-            "region": 2
+            "region": 1
         }
     },
     {
@@ -66,7 +66,7 @@
         "pk": 7,
         "fields": {
             "nombre": "Pozo Almonte",
-            "region": 2
+            "region": 1
         }
     },
     {
@@ -74,7 +74,7 @@
         "pk": 8,
         "fields": {
             "nombre": "Camiña",
-            "region": 2
+            "region": 1
         }
     },
     {
@@ -82,7 +82,7 @@
         "pk": 9,
         "fields": {
             "nombre": "Colchane",
-            "region": 2
+            "region": 1
         }
     },
     {
@@ -90,7 +90,7 @@
         "pk": 10,
         "fields": {
             "nombre": "Huara",
-            "region": 2
+            "region": 1
         }
     },
     {
@@ -98,12 +98,12 @@
         "pk": 11,
         "fields": {
             "nombre": "Pica",
-            "region": 2
+            "region": 1
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 3,
+        "pk": 2,
         "fields": {
             "nombre": "Antofagasta"
         }
@@ -113,7 +113,7 @@
         "pk": 12,
         "fields": {
             "nombre": "Antofagasta",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -121,7 +121,7 @@
         "pk": 13,
         "fields": {
             "nombre": "Mejillones",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -129,7 +129,7 @@
         "pk": 14,
         "fields": {
             "nombre": "Sierra Gorda",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -137,7 +137,7 @@
         "pk": 15,
         "fields": {
             "nombre": "Taltal",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -145,7 +145,7 @@
         "pk": 16,
         "fields": {
             "nombre": "Calama",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -153,7 +153,7 @@
         "pk": 17,
         "fields": {
             "nombre": "Ollagüe",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -161,7 +161,7 @@
         "pk": 18,
         "fields": {
             "nombre": "San Pedro de Atacama",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -169,7 +169,7 @@
         "pk": 19,
         "fields": {
             "nombre": "Tocopilla",
-            "region": 3
+            "region": 2
         }
     },
     {
@@ -177,12 +177,12 @@
         "pk": 20,
         "fields": {
             "nombre": "María Elena",
-            "region": 3
+            "region": 2
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 4,
+        "pk": 3,
         "fields": {
             "nombre": "Atacama"
         }
@@ -192,7 +192,7 @@
         "pk": 21,
         "fields": {
             "nombre": "Copiapó",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -200,7 +200,7 @@
         "pk": 22,
         "fields": {
             "nombre": "Caldera",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -208,7 +208,7 @@
         "pk": 23,
         "fields": {
             "nombre": "Tierra Amarilla",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -216,7 +216,7 @@
         "pk": 24,
         "fields": {
             "nombre": "Chañaral",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -224,7 +224,7 @@
         "pk": 25,
         "fields": {
             "nombre": "Diego de Almagro",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -232,7 +232,7 @@
         "pk": 26,
         "fields": {
             "nombre": "Vallenar",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -240,7 +240,7 @@
         "pk": 27,
         "fields": {
             "nombre": "Alto del Carmen",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -248,7 +248,7 @@
         "pk": 28,
         "fields": {
             "nombre": "Freirina",
-            "region": 4
+            "region": 3
         }
     },
     {
@@ -256,12 +256,12 @@
         "pk": 29,
         "fields": {
             "nombre": "Huasco",
-            "region": 4
+            "region": 3
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 5,
+        "pk": 4,
         "fields": {
             "nombre": "Coquimbo"
         }
@@ -271,7 +271,7 @@
         "pk": 30,
         "fields": {
             "nombre": "La Serena",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -279,7 +279,7 @@
         "pk": 31,
         "fields": {
             "nombre": "Coquimbo",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -287,7 +287,7 @@
         "pk": 32,
         "fields": {
             "nombre": "Andacollo",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -295,7 +295,7 @@
         "pk": 33,
         "fields": {
             "nombre": "La Higuera",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -303,7 +303,7 @@
         "pk": 34,
         "fields": {
             "nombre": "Paiguano",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -311,7 +311,7 @@
         "pk": 35,
         "fields": {
             "nombre": "Vicuña",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -319,7 +319,7 @@
         "pk": 36,
         "fields": {
             "nombre": "Illapel",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -327,7 +327,7 @@
         "pk": 37,
         "fields": {
             "nombre": "Canela",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -335,7 +335,7 @@
         "pk": 38,
         "fields": {
             "nombre": "Los Vilos",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -343,7 +343,7 @@
         "pk": 39,
         "fields": {
             "nombre": "Salamanca",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -351,7 +351,7 @@
         "pk": 40,
         "fields": {
             "nombre": "Ovalle",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -359,7 +359,7 @@
         "pk": 41,
         "fields": {
             "nombre": "Combarbalá",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -367,7 +367,7 @@
         "pk": 42,
         "fields": {
             "nombre": "Monte Patria",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -375,7 +375,7 @@
         "pk": 43,
         "fields": {
             "nombre": "Punitaqui",
-            "region": 5
+            "region": 4
         }
     },
     {
@@ -383,12 +383,12 @@
         "pk": 44,
         "fields": {
             "nombre": "Río Hurtado",
-            "region": 5
+            "region": 4
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 6,
+        "pk": 5,
         "fields": {
             "nombre": "Valparaíso"
         }
@@ -398,7 +398,7 @@
         "pk": 45,
         "fields": {
             "nombre": "Valparaíso",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -406,7 +406,7 @@
         "pk": 46,
         "fields": {
             "nombre": "Casablanca",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -414,7 +414,7 @@
         "pk": 47,
         "fields": {
             "nombre": "Concón",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -422,7 +422,7 @@
         "pk": 48,
         "fields": {
             "nombre": "Juan Fernández",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -430,7 +430,7 @@
         "pk": 49,
         "fields": {
             "nombre": "Puchuncaví",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -438,7 +438,7 @@
         "pk": 50,
         "fields": {
             "nombre": "Quintero",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -446,7 +446,7 @@
         "pk": 51,
         "fields": {
             "nombre": "Viña del Mar",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -454,7 +454,7 @@
         "pk": 52,
         "fields": {
             "nombre": "Isla de Pascua",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -462,7 +462,7 @@
         "pk": 53,
         "fields": {
             "nombre": "Los Andes",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -470,7 +470,7 @@
         "pk": 54,
         "fields": {
             "nombre": "Calle Larga",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -478,7 +478,7 @@
         "pk": 55,
         "fields": {
             "nombre": "Rinconada",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -486,7 +486,7 @@
         "pk": 56,
         "fields": {
             "nombre": "San Esteban",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -494,7 +494,7 @@
         "pk": 57,
         "fields": {
             "nombre": "La Ligua",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -502,7 +502,7 @@
         "pk": 58,
         "fields": {
             "nombre": "Cabildo",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -510,7 +510,7 @@
         "pk": 59,
         "fields": {
             "nombre": "Papudo",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -518,7 +518,7 @@
         "pk": 60,
         "fields": {
             "nombre": "Petorca",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -526,7 +526,7 @@
         "pk": 61,
         "fields": {
             "nombre": "Zapallar",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -534,7 +534,7 @@
         "pk": 62,
         "fields": {
             "nombre": "Quillota",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -542,7 +542,7 @@
         "pk": 63,
         "fields": {
             "nombre": "Calera",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -550,7 +550,7 @@
         "pk": 64,
         "fields": {
             "nombre": "Hijuelas",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -558,7 +558,7 @@
         "pk": 65,
         "fields": {
             "nombre": "La Cruz",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -566,7 +566,7 @@
         "pk": 66,
         "fields": {
             "nombre": "Nogales",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -574,7 +574,7 @@
         "pk": 67,
         "fields": {
             "nombre": "San Antonio",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -582,7 +582,7 @@
         "pk": 68,
         "fields": {
             "nombre": "Algarrobo",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -590,7 +590,7 @@
         "pk": 69,
         "fields": {
             "nombre": "Cartagena",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -598,7 +598,7 @@
         "pk": 70,
         "fields": {
             "nombre": "El Quisco",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -606,7 +606,7 @@
         "pk": 71,
         "fields": {
             "nombre": "El Tabo",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -614,7 +614,7 @@
         "pk": 72,
         "fields": {
             "nombre": "Santo Domingo",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -622,7 +622,7 @@
         "pk": 73,
         "fields": {
             "nombre": "San Felipe",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -630,7 +630,7 @@
         "pk": 74,
         "fields": {
             "nombre": "Catemu",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -638,7 +638,7 @@
         "pk": 75,
         "fields": {
             "nombre": "Llaillay",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -646,7 +646,7 @@
         "pk": 76,
         "fields": {
             "nombre": "Panquehue",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -654,7 +654,7 @@
         "pk": 77,
         "fields": {
             "nombre": "Putaendo",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -662,7 +662,7 @@
         "pk": 78,
         "fields": {
             "nombre": "Santa María",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -670,7 +670,7 @@
         "pk": 79,
         "fields": {
             "nombre": "Quilpué",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -678,7 +678,7 @@
         "pk": 80,
         "fields": {
             "nombre": "Limache",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -686,7 +686,7 @@
         "pk": 81,
         "fields": {
             "nombre": "Olmué",
-            "region": 6
+            "region": 5
         }
     },
     {
@@ -694,12 +694,12 @@
         "pk": 82,
         "fields": {
             "nombre": "Villa Alemana",
-            "region": 6
+            "region": 5
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 7,
+        "pk": 6,
         "fields": {
             "nombre": "Región del Libertador Gral. Bernardo O’Higgins"
         }
@@ -709,7 +709,7 @@
         "pk": 83,
         "fields": {
             "nombre": "Rancagua",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -717,7 +717,7 @@
         "pk": 84,
         "fields": {
             "nombre": "Codegua",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -725,7 +725,7 @@
         "pk": 85,
         "fields": {
             "nombre": "Coinco",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -733,7 +733,7 @@
         "pk": 86,
         "fields": {
             "nombre": "Coltauco",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -741,7 +741,7 @@
         "pk": 87,
         "fields": {
             "nombre": "Doñihue",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -749,7 +749,7 @@
         "pk": 88,
         "fields": {
             "nombre": "Graneros",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -757,7 +757,7 @@
         "pk": 89,
         "fields": {
             "nombre": "Las Cabras",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -765,7 +765,7 @@
         "pk": 90,
         "fields": {
             "nombre": "Machalí",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -773,7 +773,7 @@
         "pk": 91,
         "fields": {
             "nombre": "Malloa",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -781,7 +781,7 @@
         "pk": 92,
         "fields": {
             "nombre": "Mostazal",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -789,7 +789,7 @@
         "pk": 93,
         "fields": {
             "nombre": "Olivar",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -797,7 +797,7 @@
         "pk": 94,
         "fields": {
             "nombre": "Peumo",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -805,7 +805,7 @@
         "pk": 95,
         "fields": {
             "nombre": "Pichidegua",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -813,7 +813,7 @@
         "pk": 96,
         "fields": {
             "nombre": "Quinta de Tilcoco",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -821,7 +821,7 @@
         "pk": 97,
         "fields": {
             "nombre": "Rengo",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -829,7 +829,7 @@
         "pk": 98,
         "fields": {
             "nombre": "Requínoa",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -837,7 +837,7 @@
         "pk": 99,
         "fields": {
             "nombre": "San Vicente",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -845,7 +845,7 @@
         "pk": 100,
         "fields": {
             "nombre": "Pichilemu",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -853,7 +853,7 @@
         "pk": 101,
         "fields": {
             "nombre": "La Estrella",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -861,7 +861,7 @@
         "pk": 102,
         "fields": {
             "nombre": "Litueche",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -869,7 +869,7 @@
         "pk": 103,
         "fields": {
             "nombre": "Marchihue",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -877,7 +877,7 @@
         "pk": 104,
         "fields": {
             "nombre": "Navidad",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -885,7 +885,7 @@
         "pk": 105,
         "fields": {
             "nombre": "Paredones",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -893,7 +893,7 @@
         "pk": 106,
         "fields": {
             "nombre": "San Fernando",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -901,7 +901,7 @@
         "pk": 107,
         "fields": {
             "nombre": "Chépica",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -909,7 +909,7 @@
         "pk": 108,
         "fields": {
             "nombre": "Chimbarongo",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -917,7 +917,7 @@
         "pk": 109,
         "fields": {
             "nombre": "Lolol",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -925,7 +925,7 @@
         "pk": 110,
         "fields": {
             "nombre": "Nancagua",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -933,7 +933,7 @@
         "pk": 111,
         "fields": {
             "nombre": "Palmilla",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -941,7 +941,7 @@
         "pk": 112,
         "fields": {
             "nombre": "Peralillo",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -949,7 +949,7 @@
         "pk": 113,
         "fields": {
             "nombre": "Placilla",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -957,7 +957,7 @@
         "pk": 114,
         "fields": {
             "nombre": "Pumanque",
-            "region": 7
+            "region": 6
         }
     },
     {
@@ -965,12 +965,12 @@
         "pk": 115,
         "fields": {
             "nombre": "Santa Cruz",
-            "region": 7
+            "region": 6
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 8,
+        "pk": 7,
         "fields": {
             "nombre": "Región del Maule"
         }
@@ -980,7 +980,7 @@
         "pk": 116,
         "fields": {
             "nombre": "Talca",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -988,7 +988,7 @@
         "pk": 117,
         "fields": {
             "nombre": "Constitución",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -996,7 +996,7 @@
         "pk": 118,
         "fields": {
             "nombre": "Curepto",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1004,7 +1004,7 @@
         "pk": 119,
         "fields": {
             "nombre": "Empedrado",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1012,7 +1012,7 @@
         "pk": 120,
         "fields": {
             "nombre": "Maule",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1020,7 +1020,7 @@
         "pk": 121,
         "fields": {
             "nombre": "Pelarco",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1028,7 +1028,7 @@
         "pk": 122,
         "fields": {
             "nombre": "Pencahue",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1036,7 +1036,7 @@
         "pk": 123,
         "fields": {
             "nombre": "Río Claro",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1044,7 +1044,7 @@
         "pk": 124,
         "fields": {
             "nombre": "San Clemente",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1052,7 +1052,7 @@
         "pk": 125,
         "fields": {
             "nombre": "San Rafael",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1060,7 +1060,7 @@
         "pk": 126,
         "fields": {
             "nombre": "Cauquenes",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1068,7 +1068,7 @@
         "pk": 127,
         "fields": {
             "nombre": "Chanco",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1076,7 +1076,7 @@
         "pk": 128,
         "fields": {
             "nombre": "Pelluhue",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1084,7 +1084,7 @@
         "pk": 129,
         "fields": {
             "nombre": "Curicó",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1092,7 +1092,7 @@
         "pk": 130,
         "fields": {
             "nombre": "Hualañé",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1100,7 +1100,7 @@
         "pk": 131,
         "fields": {
             "nombre": "Licantén",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1108,7 +1108,7 @@
         "pk": 132,
         "fields": {
             "nombre": "Molina",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1116,7 +1116,7 @@
         "pk": 133,
         "fields": {
             "nombre": "Rauco",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1124,7 +1124,7 @@
         "pk": 134,
         "fields": {
             "nombre": "Romeral",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1132,7 +1132,7 @@
         "pk": 135,
         "fields": {
             "nombre": "Sagrada Familia",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1140,7 +1140,7 @@
         "pk": 136,
         "fields": {
             "nombre": "Teno",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1148,7 +1148,7 @@
         "pk": 137,
         "fields": {
             "nombre": "Vichuquén",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1156,7 +1156,7 @@
         "pk": 138,
         "fields": {
             "nombre": "Linares",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1164,7 +1164,7 @@
         "pk": 139,
         "fields": {
             "nombre": "Colbún",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1172,7 +1172,7 @@
         "pk": 140,
         "fields": {
             "nombre": "Longaví",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1180,7 +1180,7 @@
         "pk": 141,
         "fields": {
             "nombre": "Parral",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1188,7 +1188,7 @@
         "pk": 142,
         "fields": {
             "nombre": "Retiro",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1196,7 +1196,7 @@
         "pk": 143,
         "fields": {
             "nombre": "San Javier",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1204,7 +1204,7 @@
         "pk": 144,
         "fields": {
             "nombre": "Villa Alegre",
-            "region": 8
+            "region": 7
         }
     },
     {
@@ -1212,12 +1212,12 @@
         "pk": 145,
         "fields": {
             "nombre": "Yerbas Buenas",
-            "region": 8
+            "region": 7
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 9,
+        "pk": 16,
         "fields": {
             "nombre": "Región de Ñuble"
         }
@@ -1227,7 +1227,7 @@
         "pk": 146,
         "fields": {
             "nombre": "Cobquecura",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1235,7 +1235,7 @@
         "pk": 147,
         "fields": {
             "nombre": "Coelemu",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1243,7 +1243,7 @@
         "pk": 148,
         "fields": {
             "nombre": "Ninhue",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1251,7 +1251,7 @@
         "pk": 149,
         "fields": {
             "nombre": "Portezuelo",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1259,7 +1259,7 @@
         "pk": 150,
         "fields": {
             "nombre": "Quirihue",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1267,7 +1267,7 @@
         "pk": 151,
         "fields": {
             "nombre": "Ránquil",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1275,7 +1275,7 @@
         "pk": 152,
         "fields": {
             "nombre": "Treguaco",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1283,7 +1283,7 @@
         "pk": 153,
         "fields": {
             "nombre": "Bulnes",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1291,7 +1291,7 @@
         "pk": 154,
         "fields": {
             "nombre": "Chillán Viejo",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1299,7 +1299,7 @@
         "pk": 155,
         "fields": {
             "nombre": "Chillán",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1307,7 +1307,7 @@
         "pk": 156,
         "fields": {
             "nombre": "El Carmen",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1315,7 +1315,7 @@
         "pk": 157,
         "fields": {
             "nombre": "Pemuco",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1323,7 +1323,7 @@
         "pk": 158,
         "fields": {
             "nombre": "Pinto",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1331,7 +1331,7 @@
         "pk": 159,
         "fields": {
             "nombre": "Quillón",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1339,7 +1339,7 @@
         "pk": 160,
         "fields": {
             "nombre": "San Ignacio",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1347,7 +1347,7 @@
         "pk": 161,
         "fields": {
             "nombre": "Yungay",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1355,7 +1355,7 @@
         "pk": 162,
         "fields": {
             "nombre": "Coihueco",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1363,7 +1363,7 @@
         "pk": 163,
         "fields": {
             "nombre": "Ñiquén",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1371,7 +1371,7 @@
         "pk": 164,
         "fields": {
             "nombre": "San Carlos",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1379,7 +1379,7 @@
         "pk": 165,
         "fields": {
             "nombre": "San Fabián",
-            "region": 9
+            "region": 16
         }
     },
     {
@@ -1387,12 +1387,12 @@
         "pk": 166,
         "fields": {
             "nombre": "San Nicolás",
-            "region": 9
+            "region": 16
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 10,
+        "pk": 8,
         "fields": {
             "nombre": "Región del Biobío"
         }
@@ -1402,7 +1402,7 @@
         "pk": 167,
         "fields": {
             "nombre": "Concepción",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1410,7 +1410,7 @@
         "pk": 168,
         "fields": {
             "nombre": "Coronel",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1418,7 +1418,7 @@
         "pk": 169,
         "fields": {
             "nombre": "Chiguayante",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1426,7 +1426,7 @@
         "pk": 170,
         "fields": {
             "nombre": "Florida",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1434,7 +1434,7 @@
         "pk": 171,
         "fields": {
             "nombre": "Hualqui",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1442,7 +1442,7 @@
         "pk": 172,
         "fields": {
             "nombre": "Lota",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1450,7 +1450,7 @@
         "pk": 173,
         "fields": {
             "nombre": "Penco",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1458,7 +1458,7 @@
         "pk": 174,
         "fields": {
             "nombre": "San Pedro de la Paz",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1466,7 +1466,7 @@
         "pk": 175,
         "fields": {
             "nombre": "Santa Juana",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1474,7 +1474,7 @@
         "pk": 176,
         "fields": {
             "nombre": "Talcahuano",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1482,7 +1482,7 @@
         "pk": 177,
         "fields": {
             "nombre": "Tomé",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1490,7 +1490,7 @@
         "pk": 178,
         "fields": {
             "nombre": "Hualpén",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1498,7 +1498,7 @@
         "pk": 179,
         "fields": {
             "nombre": "Lebu",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1506,7 +1506,7 @@
         "pk": 180,
         "fields": {
             "nombre": "Arauco",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1514,7 +1514,7 @@
         "pk": 181,
         "fields": {
             "nombre": "Cañete",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1522,7 +1522,7 @@
         "pk": 182,
         "fields": {
             "nombre": "Contulmo",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1530,7 +1530,7 @@
         "pk": 183,
         "fields": {
             "nombre": "Curanilahue",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1538,7 +1538,7 @@
         "pk": 184,
         "fields": {
             "nombre": "Los Álamos",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1546,7 +1546,7 @@
         "pk": 185,
         "fields": {
             "nombre": "Tirúa",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1554,7 +1554,7 @@
         "pk": 186,
         "fields": {
             "nombre": "Los Ángeles",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1562,7 +1562,7 @@
         "pk": 187,
         "fields": {
             "nombre": "Antuco",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1570,7 +1570,7 @@
         "pk": 188,
         "fields": {
             "nombre": "Cabrero",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1578,7 +1578,7 @@
         "pk": 189,
         "fields": {
             "nombre": "Laja",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1586,7 +1586,7 @@
         "pk": 190,
         "fields": {
             "nombre": "Mulchén",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1594,7 +1594,7 @@
         "pk": 191,
         "fields": {
             "nombre": "Nacimiento",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1602,7 +1602,7 @@
         "pk": 192,
         "fields": {
             "nombre": "Negrete",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1610,7 +1610,7 @@
         "pk": 193,
         "fields": {
             "nombre": "Quilaco",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1618,7 +1618,7 @@
         "pk": 194,
         "fields": {
             "nombre": "Quilleco",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1626,7 +1626,7 @@
         "pk": 195,
         "fields": {
             "nombre": "San Rosendo",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1634,7 +1634,7 @@
         "pk": 196,
         "fields": {
             "nombre": "Santa Bárbara",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1642,7 +1642,7 @@
         "pk": 197,
         "fields": {
             "nombre": "Tucapel",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1650,7 +1650,7 @@
         "pk": 198,
         "fields": {
             "nombre": "Yumbel",
-            "region": 10
+            "region": 8
         }
     },
     {
@@ -1658,12 +1658,12 @@
         "pk": 199,
         "fields": {
             "nombre": "Alto Biobío",
-            "region": 10
+            "region": 8
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 11,
+        "pk": 9,
         "fields": {
             "nombre": "Región de la Araucanía"
         }
@@ -1673,7 +1673,7 @@
         "pk": 200,
         "fields": {
             "nombre": "Temuco",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1681,7 +1681,7 @@
         "pk": 201,
         "fields": {
             "nombre": "Carahue",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1689,7 +1689,7 @@
         "pk": 202,
         "fields": {
             "nombre": "Cunco",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1697,7 +1697,7 @@
         "pk": 203,
         "fields": {
             "nombre": "Curarrehue",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1705,7 +1705,7 @@
         "pk": 204,
         "fields": {
             "nombre": "Freire",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1713,7 +1713,7 @@
         "pk": 205,
         "fields": {
             "nombre": "Galvarino",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1721,7 +1721,7 @@
         "pk": 206,
         "fields": {
             "nombre": "Gorbea",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1729,7 +1729,7 @@
         "pk": 207,
         "fields": {
             "nombre": "Lautaro",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1737,7 +1737,7 @@
         "pk": 208,
         "fields": {
             "nombre": "Loncoche",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1745,7 +1745,7 @@
         "pk": 209,
         "fields": {
             "nombre": "Melipeuco",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1753,7 +1753,7 @@
         "pk": 210,
         "fields": {
             "nombre": "Nueva Imperial",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1761,7 +1761,7 @@
         "pk": 211,
         "fields": {
             "nombre": "Padre las Casas",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1769,7 +1769,7 @@
         "pk": 212,
         "fields": {
             "nombre": "Perquenco",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1777,7 +1777,7 @@
         "pk": 213,
         "fields": {
             "nombre": "Pitrufquén",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1785,7 +1785,7 @@
         "pk": 214,
         "fields": {
             "nombre": "Pucón",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1793,7 +1793,7 @@
         "pk": 215,
         "fields": {
             "nombre": "Saavedra",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1801,7 +1801,7 @@
         "pk": 216,
         "fields": {
             "nombre": "Teodoro Schmidt",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1809,7 +1809,7 @@
         "pk": 217,
         "fields": {
             "nombre": "Toltén",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1817,7 +1817,7 @@
         "pk": 218,
         "fields": {
             "nombre": "Vilcún",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1825,7 +1825,7 @@
         "pk": 219,
         "fields": {
             "nombre": "Villarrica",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1833,7 +1833,7 @@
         "pk": 220,
         "fields": {
             "nombre": "Cholchol",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1841,7 +1841,7 @@
         "pk": 221,
         "fields": {
             "nombre": "Angol",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1849,7 +1849,7 @@
         "pk": 222,
         "fields": {
             "nombre": "Collipulli",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1857,7 +1857,7 @@
         "pk": 223,
         "fields": {
             "nombre": "Curacautín",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1865,7 +1865,7 @@
         "pk": 224,
         "fields": {
             "nombre": "Ercilla",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1873,7 +1873,7 @@
         "pk": 225,
         "fields": {
             "nombre": "Lonquimay",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1881,7 +1881,7 @@
         "pk": 226,
         "fields": {
             "nombre": "Los Sauces",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1889,7 +1889,7 @@
         "pk": 227,
         "fields": {
             "nombre": "Lumaco",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1897,7 +1897,7 @@
         "pk": 228,
         "fields": {
             "nombre": "Purén",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1905,7 +1905,7 @@
         "pk": 229,
         "fields": {
             "nombre": "Renaico",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1913,7 +1913,7 @@
         "pk": 230,
         "fields": {
             "nombre": "Traiguén",
-            "region": 11
+            "region": 9
         }
     },
     {
@@ -1921,12 +1921,12 @@
         "pk": 231,
         "fields": {
             "nombre": "Victoria",
-            "region": 11
+            "region": 9
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 12,
+        "pk": 14,
         "fields": {
             "nombre": "Región de Los Ríos"
         }
@@ -1936,7 +1936,7 @@
         "pk": 232,
         "fields": {
             "nombre": "Valdivia",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1944,7 +1944,7 @@
         "pk": 233,
         "fields": {
             "nombre": "Corral",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1952,7 +1952,7 @@
         "pk": 234,
         "fields": {
             "nombre": "Lanco",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1960,7 +1960,7 @@
         "pk": 235,
         "fields": {
             "nombre": "Los Lagos",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1968,7 +1968,7 @@
         "pk": 236,
         "fields": {
             "nombre": "Máfil",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1976,7 +1976,7 @@
         "pk": 237,
         "fields": {
             "nombre": "Mariquina",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1984,7 +1984,7 @@
         "pk": 238,
         "fields": {
             "nombre": "Paillaco",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -1992,7 +1992,7 @@
         "pk": 239,
         "fields": {
             "nombre": "Panguipulli",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -2000,7 +2000,7 @@
         "pk": 240,
         "fields": {
             "nombre": "La Unión",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -2008,7 +2008,7 @@
         "pk": 241,
         "fields": {
             "nombre": "Futrono",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -2016,7 +2016,7 @@
         "pk": 242,
         "fields": {
             "nombre": "Lago Ranco",
-            "region": 12
+            "region": 14
         }
     },
     {
@@ -2024,12 +2024,12 @@
         "pk": 243,
         "fields": {
             "nombre": "Río Bueno",
-            "region": 12
+            "region": 14
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 13,
+        "pk": 10,
         "fields": {
             "nombre": "Región de Los Lagos"
         }
@@ -2039,7 +2039,7 @@
         "pk": 244,
         "fields": {
             "nombre": "Puerto Montt",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2047,7 +2047,7 @@
         "pk": 245,
         "fields": {
             "nombre": "Calbuco",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2055,7 +2055,7 @@
         "pk": 246,
         "fields": {
             "nombre": "Cochamó",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2063,7 +2063,7 @@
         "pk": 247,
         "fields": {
             "nombre": "Fresia",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2071,7 +2071,7 @@
         "pk": 248,
         "fields": {
             "nombre": "Frutillar",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2079,7 +2079,7 @@
         "pk": 249,
         "fields": {
             "nombre": "Los Muermos",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2087,7 +2087,7 @@
         "pk": 250,
         "fields": {
             "nombre": "Llanquihue",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2095,7 +2095,7 @@
         "pk": 251,
         "fields": {
             "nombre": "Maullín",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2103,7 +2103,7 @@
         "pk": 252,
         "fields": {
             "nombre": "Puerto Varas",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2111,7 +2111,7 @@
         "pk": 253,
         "fields": {
             "nombre": "Castro",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2119,7 +2119,7 @@
         "pk": 254,
         "fields": {
             "nombre": "Ancud",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2127,7 +2127,7 @@
         "pk": 255,
         "fields": {
             "nombre": "Chonchi",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2135,7 +2135,7 @@
         "pk": 256,
         "fields": {
             "nombre": "Curaco de Vélez",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2143,7 +2143,7 @@
         "pk": 257,
         "fields": {
             "nombre": "Dalcahue",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2151,7 +2151,7 @@
         "pk": 258,
         "fields": {
             "nombre": "Puqueldón",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2159,7 +2159,7 @@
         "pk": 259,
         "fields": {
             "nombre": "Queilén",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2167,7 +2167,7 @@
         "pk": 260,
         "fields": {
             "nombre": "Quellón",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2175,7 +2175,7 @@
         "pk": 261,
         "fields": {
             "nombre": "Quemchi",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2183,7 +2183,7 @@
         "pk": 262,
         "fields": {
             "nombre": "Quinchao",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2191,7 +2191,7 @@
         "pk": 263,
         "fields": {
             "nombre": "Osorno",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2199,7 +2199,7 @@
         "pk": 264,
         "fields": {
             "nombre": "Puerto Octay",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2207,7 +2207,7 @@
         "pk": 265,
         "fields": {
             "nombre": "Purranque",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2215,7 +2215,7 @@
         "pk": 266,
         "fields": {
             "nombre": "Puyehue",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2223,7 +2223,7 @@
         "pk": 267,
         "fields": {
             "nombre": "Río Negro",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2231,7 +2231,7 @@
         "pk": 268,
         "fields": {
             "nombre": "San Juan de la Costa",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2239,7 +2239,7 @@
         "pk": 269,
         "fields": {
             "nombre": "San Pablo",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2247,7 +2247,7 @@
         "pk": 270,
         "fields": {
             "nombre": "Chaitén",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2255,7 +2255,7 @@
         "pk": 271,
         "fields": {
             "nombre": "Futaleufú",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2263,7 +2263,7 @@
         "pk": 272,
         "fields": {
             "nombre": "Hualaihué",
-            "region": 13
+            "region": 10
         }
     },
     {
@@ -2271,12 +2271,12 @@
         "pk": 273,
         "fields": {
             "nombre": "Palena",
-            "region": 13
+            "region": 10
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 14,
+        "pk": 11,
         "fields": {
             "nombre": "Región Aisén del Gral. Carlos Ibáñez del Campo"
         }
@@ -2286,7 +2286,7 @@
         "pk": 274,
         "fields": {
             "nombre": "Coihaique",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2294,7 +2294,7 @@
         "pk": 275,
         "fields": {
             "nombre": "Lago Verde",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2302,7 +2302,7 @@
         "pk": 276,
         "fields": {
             "nombre": "Aisén",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2310,7 +2310,7 @@
         "pk": 277,
         "fields": {
             "nombre": "Cisnes",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2318,7 +2318,7 @@
         "pk": 278,
         "fields": {
             "nombre": "Guaitecas",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2326,7 +2326,7 @@
         "pk": 279,
         "fields": {
             "nombre": "Cochrane",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2334,7 +2334,7 @@
         "pk": 280,
         "fields": {
             "nombre": "O’Higgins",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2342,7 +2342,7 @@
         "pk": 281,
         "fields": {
             "nombre": "Tortel",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2350,7 +2350,7 @@
         "pk": 282,
         "fields": {
             "nombre": "Chile Chico",
-            "region": 14
+            "region": 11
         }
     },
     {
@@ -2358,12 +2358,12 @@
         "pk": 283,
         "fields": {
             "nombre": "Río Ibáñez",
-            "region": 14
+            "region": 11
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 15,
+        "pk": 12,
         "fields": {
             "nombre": "Región de Magallanes y de la Antártica Chilena"
         }
@@ -2373,7 +2373,7 @@
         "pk": 284,
         "fields": {
             "nombre": "Punta Arenas",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2381,7 +2381,7 @@
         "pk": 285,
         "fields": {
             "nombre": "Laguna Blanca",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2389,7 +2389,7 @@
         "pk": 286,
         "fields": {
             "nombre": "Río Verde",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2397,7 +2397,7 @@
         "pk": 287,
         "fields": {
             "nombre": "San Gregorio",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2405,7 +2405,7 @@
         "pk": 288,
         "fields": {
             "nombre": "Cabo de Hornos (Ex Navarino)",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2413,7 +2413,7 @@
         "pk": 289,
         "fields": {
             "nombre": "Antártica",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2421,7 +2421,7 @@
         "pk": 290,
         "fields": {
             "nombre": "Porvenir",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2429,7 +2429,7 @@
         "pk": 291,
         "fields": {
             "nombre": "Primavera",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2437,7 +2437,7 @@
         "pk": 292,
         "fields": {
             "nombre": "Timaukel",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2445,7 +2445,7 @@
         "pk": 293,
         "fields": {
             "nombre": "Natales",
-            "region": 15
+            "region": 12
         }
     },
     {
@@ -2453,12 +2453,12 @@
         "pk": 294,
         "fields": {
             "nombre": "Torres del Paine",
-            "region": 15
+            "region": 12
         }
     },
     {
         "model": "app_inmobiliaria.region",
-        "pk": 16,
+        "pk": 13,
         "fields": {
             "nombre": "Región Metropolitana de Santiago"
         }
@@ -2468,7 +2468,7 @@
         "pk": 295,
         "fields": {
             "nombre": "Cerrillos",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2476,7 +2476,7 @@
         "pk": 296,
         "fields": {
             "nombre": "Cerro Navia",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2484,7 +2484,7 @@
         "pk": 297,
         "fields": {
             "nombre": "Conchalí",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2492,7 +2492,7 @@
         "pk": 298,
         "fields": {
             "nombre": "El Bosque",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2500,7 +2500,7 @@
         "pk": 299,
         "fields": {
             "nombre": "Estación Central",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2508,7 +2508,7 @@
         "pk": 300,
         "fields": {
             "nombre": "Huechuraba",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2516,7 +2516,7 @@
         "pk": 301,
         "fields": {
             "nombre": "Independencia",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2524,7 +2524,7 @@
         "pk": 302,
         "fields": {
             "nombre": "La Cisterna",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2532,7 +2532,7 @@
         "pk": 303,
         "fields": {
             "nombre": "La Florida",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2540,7 +2540,7 @@
         "pk": 304,
         "fields": {
             "nombre": "La Granja",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2548,7 +2548,7 @@
         "pk": 305,
         "fields": {
             "nombre": "La Pintana",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2556,7 +2556,7 @@
         "pk": 306,
         "fields": {
             "nombre": "La Reina",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2564,7 +2564,7 @@
         "pk": 307,
         "fields": {
             "nombre": "Las Condes",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2572,7 +2572,7 @@
         "pk": 308,
         "fields": {
             "nombre": "Lo Barnechea",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2580,7 +2580,7 @@
         "pk": 309,
         "fields": {
             "nombre": "Lo Espejo",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2588,7 +2588,7 @@
         "pk": 310,
         "fields": {
             "nombre": "Lo Prado",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2596,7 +2596,7 @@
         "pk": 311,
         "fields": {
             "nombre": "Macul",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2604,7 +2604,7 @@
         "pk": 312,
         "fields": {
             "nombre": "Maipú",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2612,7 +2612,7 @@
         "pk": 313,
         "fields": {
             "nombre": "Ñuñoa",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2620,7 +2620,7 @@
         "pk": 314,
         "fields": {
             "nombre": "Pedro Aguirre Cerda",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2628,7 +2628,7 @@
         "pk": 315,
         "fields": {
             "nombre": "Peñalolén",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2636,7 +2636,7 @@
         "pk": 316,
         "fields": {
             "nombre": "Providencia",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2644,7 +2644,7 @@
         "pk": 317,
         "fields": {
             "nombre": "Pudahuel",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2652,7 +2652,7 @@
         "pk": 318,
         "fields": {
             "nombre": "Quilicura",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2660,7 +2660,7 @@
         "pk": 319,
         "fields": {
             "nombre": "Quinta Normal",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2668,7 +2668,7 @@
         "pk": 320,
         "fields": {
             "nombre": "Recoleta",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2676,7 +2676,7 @@
         "pk": 321,
         "fields": {
             "nombre": "Renca",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2684,7 +2684,7 @@
         "pk": 322,
         "fields": {
             "nombre": "Santiago",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2692,7 +2692,7 @@
         "pk": 323,
         "fields": {
             "nombre": "San Joaquín",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2700,7 +2700,7 @@
         "pk": 324,
         "fields": {
             "nombre": "San Miguel",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2708,7 +2708,7 @@
         "pk": 325,
         "fields": {
             "nombre": "San Ramón",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2716,7 +2716,7 @@
         "pk": 326,
         "fields": {
             "nombre": "Vitacura",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2724,7 +2724,7 @@
         "pk": 327,
         "fields": {
             "nombre": "Puente Alto",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2732,7 +2732,7 @@
         "pk": 328,
         "fields": {
             "nombre": "Pirque",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2740,7 +2740,7 @@
         "pk": 329,
         "fields": {
             "nombre": "San José de Maipo",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2748,7 +2748,7 @@
         "pk": 330,
         "fields": {
             "nombre": "Colina",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2756,7 +2756,7 @@
         "pk": 331,
         "fields": {
             "nombre": "Lampa",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2764,7 +2764,7 @@
         "pk": 332,
         "fields": {
             "nombre": "Tiltil",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2772,7 +2772,7 @@
         "pk": 333,
         "fields": {
             "nombre": "San Bernardo",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2780,7 +2780,7 @@
         "pk": 334,
         "fields": {
             "nombre": "Buin",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2788,7 +2788,7 @@
         "pk": 335,
         "fields": {
             "nombre": "Calera de Tango",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2796,7 +2796,7 @@
         "pk": 336,
         "fields": {
             "nombre": "Paine",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2804,7 +2804,7 @@
         "pk": 337,
         "fields": {
             "nombre": "Melipilla",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2812,7 +2812,7 @@
         "pk": 338,
         "fields": {
             "nombre": "Alhué",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2820,7 +2820,7 @@
         "pk": 339,
         "fields": {
             "nombre": "Curacaví",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2828,7 +2828,7 @@
         "pk": 340,
         "fields": {
             "nombre": "María Pinto",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2836,7 +2836,7 @@
         "pk": 341,
         "fields": {
             "nombre": "San Pedro",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2844,7 +2844,7 @@
         "pk": 342,
         "fields": {
             "nombre": "Talagante",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2852,7 +2852,7 @@
         "pk": 343,
         "fields": {
             "nombre": "El Monte",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2860,7 +2860,7 @@
         "pk": 344,
         "fields": {
             "nombre": "Isla de Maipo",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2868,7 +2868,7 @@
         "pk": 345,
         "fields": {
             "nombre": "Padre Hurtado",
-            "region": 16
+            "region": 13
         }
     },
     {
@@ -2876,7 +2876,7 @@
         "pk": 346,
         "fields": {
             "nombre": "Peñaflor",
-            "region": 16
+            "region": 13
         }
     }
 ]

@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator
 
 # lo que nos piden
 
@@ -8,10 +9,12 @@ from django.contrib.auth.models import User
 # User (username, email, first_name, last_name, password, ....)
 
 
-class UserProfile(models.Model):
-    tipos=(('arrendador', 'arrendador'),
-            ('arrendatario', 'arrendatario'),
-            )
+
+class UserProfile(models.Model):                # Extender clase usuario
+    tipos=(
+        ('arrendador', 'Arrendador'),          # Primer campo es con el nombre que se guarda en BD, el segundo el que aparece en pantalla
+        ('arrendatario', 'Arrendatario'),
+    )
     direccion=models.CharField(max_length=255)
     telefono=models.CharField(max_length=12)
     tipo=models.CharField(max_length=20, choices=tipos)
@@ -23,4 +26,25 @@ class Region(models.Model):
 
 class Comuna(models.Model):
     nombre=models.CharField(max_length=100)
-    region=models.ForeignKey(Region, related_name='comunas', on_delete=models.CASCADE)
+    region=models.ForeignKey(Region, related_name='comunas', on_delete=models.RESTRICT)
+
+class Inmueble(models.Model):
+    inmuebles=(
+        ('casa', 'Casa'),
+        ('departamento', 'Departamento'),
+        ('parcela', 'Parcela'),
+    )
+    nombre =  models.CharField(max_length=100)
+    descripcion = models.TextField(max_length=500)
+    m2_construidos=models.IntegerField(validators=[MinValueValidator(1)])
+    m2_totales=models.IntegerField(validators=[MinValueValidator(1)])
+    cantidad_estacionamientos = models.IntegerField(validators=[MinValueValidator(0)], default=0)
+    cantidad_habitaciones =models.IntegerField(validators=[MinValueValidator(1)], default=1)
+    cantidad_baños=models.IntegerField(validators=[MinValueValidator(1)], default=1)
+    dirección=models.CharField(max_length=255) 
+    tipo_inmueble=models.CharField(max_length=12, choices=inmuebles)
+    precio_arriendo=models.IntegerField(validators=[MinValueValidator(1)], default=1)
+    comuna=models.ForeignKey(Comuna, related_name='inmuebles', on_delete=models.RESTRICT)     
+    propietario=models.ForeignKey(User, related_name='inmuebles', on_delete=models.RESTRICT)
+
+    # 1:12:31
