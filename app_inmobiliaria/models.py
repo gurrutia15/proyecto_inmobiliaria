@@ -45,4 +45,4 @@ class Inmueble(models.Model):
     precio_arriendo=models.IntegerField(validators=[MinValueValidator(1)], default=1)
     tipo_inmueble=models.CharField(max_length=12, choices=inmuebles)
     comuna=models.ForeignKey(Comuna, related_name='inmuebles', on_delete=models.RESTRICT)     
-    propietario=models.ForeignKey(User, related_name='inmuebles', on_delete=models.RESTRICT)
+    propietario=models.ForeignKey(User, related_name='inmueble', on_delete=models.RESTRICT)

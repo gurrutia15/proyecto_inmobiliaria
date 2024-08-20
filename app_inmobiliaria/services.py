@@ -1,6 +1,8 @@
 from app_inmobiliaria.models import Comuna, Inmueble, UserProfile
 from django.contrib.auth.models import User
 from django.db.utils import IntegrityError
+from django.db.models import Q
+from django.db import connection
 
 def crear_inmueble(nombre:str, descripcion:str, m2_construidos:int, m2_totales:int, cantidad_estacionamientos:int, cantidad_habitaciones:int, cantidad_baños:int, direccion:str, precio_arriendo:int, tipo_inmueble:str, comuna_id:str, rut_propietario:str):
     comuna = Comuna.objects.get(id=comuna_id)
@@ -85,3 +87,30 @@ def editar_user_sin_password(rut:str, first_name:str, last_name:str, email:str, 
     user_profile.telefono = telefono
     user_profile.tipo = tipo
     user_profile.save()
+
+
+def obtener_propiedades_comunas(filtro):
+    if filtro is None:
+        return Inmueble.objects.all().order_by('comuna')
+    
+    return Inmueble.objects.filter(Q(nombre__icontains=filtro) | Q(descripcion__icontains=filtro)).order_by('comuna')
+
+def obtener_propiedades_regiones(filtro):
+    consulta = '''
+    select I.nombre, I.descripcion, R.nombre as region from app_inmobiliaria_inmueble as I
+    join app_inmobiliaria_comuna as C on I.comuna_id = C.id
+    join app_inmobiliaria_region as R on C.region_id = R.id
+    order by R.id;
+    '''
+    if filtro is not None:
+        filtro = filtro.lower()
+        consulta = f'''
+        select I.nombre, I.descripcion, R.nombre as region from app_inmobiliaria_inmueble as I
+        join app_inmobiliaria_comuna as C on I.comuna_id = C.id
+        join app_inmobiliaria_region as R on C.region_id = R.id where lower(I.nombre) like '%{filtro}%' or lower(I.descripcion) like '%{filtro}%'
+        order by R.id;
+        '''
+    cursor = connection.cursor()
+    cursor.execute(consulta)
+    registros = cursor.fetchall() # LAZY LOADING
+    return registros

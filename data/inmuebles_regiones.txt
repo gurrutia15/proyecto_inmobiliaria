@@ -1,0 +1,2 @@
+Nombre: Casa RÃºstica || Descripción: Casa de campo con chimenea || Región: Atacama
+Nombre: Casa de Campo || Descripción: Casa con amplio terreno || Región: Región Metropolitana de Santiago
