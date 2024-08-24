@@ -12,7 +12,7 @@ class Command(BaseCommand):
             filtro = kwargs['f'][0]
         inmuebles = obtener_propiedades_regiones(filtro)
         
-        with open('data/inmuebles_regiones.txt', 'w') as file:
+        with open('data/inmuebles_regiones.txt', 'w',encoding='utf-8') as file:
             for inmueble in inmuebles:
                 linea = f'Nombre: {inmueble[0]} || Descripción: {inmueble[1]} || Región: {inmueble[2]}'
                 file.write(linea + '\n')

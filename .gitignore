@@ -2,4 +2,6 @@
 **/*migrations
 .env
 v_django
-*.pyc
+# *.pyc
+# *.log
+db.sqlite3

@@ -14,7 +14,7 @@ class Command(BaseCommand):
         inmuebles = obtener_propiedades_comunas(filtro)
 
 
-        with open('data/inmuebles_comuna.txt', 'w') as file:
+        with open('data/inmuebles_comuna.txt', 'w', encoding='utf-8') as file:
             for inmueble in inmuebles:
                 linea=f'{inmueble.nombre}\t{inmueble.descripcion}\t\t{inmueble.comuna.nombre}\n'
                 file.write(linea)
