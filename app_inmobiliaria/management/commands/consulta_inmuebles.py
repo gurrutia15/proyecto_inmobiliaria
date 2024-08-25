@@ -18,3 +18,7 @@ class Command(BaseCommand):
             for inmueble in inmuebles:
                 linea=f'{inmueble.nombre}\t{inmueble.descripcion}\t\t{inmueble.comuna.nombre}\n'
                 file.write(linea)
+
+# Para buscar en terminal:
+#           py manage.py -f elemento_a_buscar 
+        #   py manage.py -f Coronel
