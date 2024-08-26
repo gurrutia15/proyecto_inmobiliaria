@@ -57,3 +57,6 @@ LIBRERIA Q ==> para consultas agrupadas
     debe importarse:
         from django.db.models import Q
         __iconstain  ==> quiere decir que contiene y la i inicial dice acepta minýusculas y mayúsculas
+
+En terminal uso:
+    py manage.py nombre_archivo -f dato_a_consultar
