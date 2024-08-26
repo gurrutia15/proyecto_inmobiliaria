@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.db.utils import IntegrityError
 from django.db.models import Q
 from django.db import connection
+from django.contrib import messages
 
 def crear_inmueble(nombre:str, descripcion:str, m2_construidos:int, m2_totales:int, cantidad_estacionamientos:int, cantidad_habitaciones:int, cantidad_baños:int, direccion:str, precio_arriendo:int, tipo_inmueble:str, comuna_id:str, rut_propietario:str):
     comuna = Comuna.objects.get(id=comuna_id)
@@ -43,9 +44,9 @@ def editar_inmueble(inmueble_id:int, nombre:str, descripcion:str, m2_construidos
     inmueble.save()
     return True
 
-def crear_user(username:str, first_name:str, last_name:str, email:str, password:str, pass_confirm:str, direccion:str, tipo:str='arrendatario', telefono:str=None) -> bool:
+def crear_user(request, username:str, first_name:str, last_name:str, email:str, password:str, pass_confirm:str, direccion:str, tipo:str='arrendatario', telefono:str=None) -> bool:
     if password != pass_confirm:
-        # messages.error(request, 'Las contraseñas no coinciden')
+        messages.error(request, 'Las contraseñas no coinciden')
         return False
     try:
         user = User.objects.create_user(
@@ -56,7 +57,7 @@ def crear_user(username:str, first_name:str, last_name:str, email:str, password:
             last_name=last_name,
         )
     except IntegrityError:
-        # messages.error(request, 'El rut ya está ingresado')
+        messages.error(request, 'El rut ya está ingresado')
         return False
     UserProfile.objects.create(
         direccion=direccion,
@@ -64,7 +65,7 @@ def crear_user(username:str, first_name:str, last_name:str, email:str, password:
         tipo = tipo,
         user=user
     )
-    # messages.success(request, 'Usuario creado con éxito! Por favor, ingrese')
+    messages.success(request, 'Usuario creado con éxito! Por favor, ingrese')
     return True
 
 def eliminar_inmueble(inmueble_id):
