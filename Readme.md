@@ -60,3 +60,8 @@ LIBRERIA Q ==> para consultas agrupadas
 
 En terminal uso:
     py manage.py nombre_archivo -f dato_a_consultar
+
+
+============== Hito 3 ================
+superuser:
+    py manage.py createsuperuser

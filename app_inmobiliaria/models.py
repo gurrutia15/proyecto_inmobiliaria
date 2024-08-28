@@ -12,15 +12,22 @@ from django.core.validators import MinValueValidator
 
 class UserProfile(models.Model):                # Extender clase usuario
     tipos=(
-        ('arrendador', 'Arrendador'),          # Primer campo es con el nombre que se guarda en BD, el segundo el que aparece en pantalla
         ('arrendatario', 'Arrendatario'),
+        ('arrendador', 'Arrendador'),          # Primer campo es con el nombre que se guarda en BD, el segundo el que aparece en pantalla
+        
     )
     direccion=models.CharField(max_length=255)
     telefono=models.CharField(max_length=12, null=True)
     tipo=models.CharField(max_length=20, choices=tipos)
-    user=models.OneToOneField(User, related_name='user_profile', on_delete=models.CASCADE)
+    user=models.OneToOneField(User, related_name='userprofile', on_delete=models.CASCADE)
     #  (direccion, telefono, tipo, rut):
-
+    def __str__(self):
+        nombre = self.user.first_name
+        apellido = self.user.last_name
+        usuario = self.user.username
+        tipo = self.tipo
+        return f'{nombre} {apellido} | {usuario} | {tipo}'
+    
 class Region(models.Model):
     nombre=models.CharField(max_length=100)
 
