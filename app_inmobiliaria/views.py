@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
-from .services import crear_user, editar_user_sin_password, cambio_password
+from .services import crear_user, editar_user_sin_password, cambio_password, crear_inmueble
 from django.contrib.auth.decorators import login_required
-from .models import Inmueble
+from .models import Inmueble, Region, Comuna
 from django.contrib import messages
 
 # Create your views here.
@@ -77,4 +77,39 @@ def change_pass(request):
     password= request.POST['password']
     password_repeat= request.POST['password_repeat']
     cambio_password(request, password, password_repeat)
-    return redirect('accounts/profile')
+    return redirect('/accounts/profile')
+
+@login_required
+def add_propiedad(request):
+    regiones = Region.objects.all()
+    comunas = Comuna.objects.all().order_by('nombre')
+    tipos_inmuebles = Inmueble.inmuebles
+    context = {
+        'regiones': regiones,
+        'comunas':  comunas,
+        'tipos_inmuebles': tipos_inmuebles
+    }
+
+    if request.method == 'POST':
+        nombre = request.POST['nombre']
+        descripcion = request.POST['descripcion']
+        m2_construidos = int(request.POST ['m2_construidos'])
+        m2_totales = int(request.POST ['m2_totales'])
+        cantidad_estacionamientos = int(request.POST ['cantidad_estacionamientos'])
+        cantidad_habitaciones = int(request.POST ['cantidad_habitaciones'])
+        cantidad_baños = int(request.POST ['cantidad_baños'])
+        direccion = request.POST ['direccion']
+        precio_arriendo = int(request.POST ['precio_arriendo'])
+        tipo_inmueble = request.POST ['tipo_inmueble']
+        comuna_id = request.POST ['comuna_id']
+        rut_propietario = request.user
+
+        crear = crear_inmueble(nombre, descripcion, m2_construidos, m2_totales, cantidad_estacionamientos, cantidad_habitaciones, cantidad_baños, direccion, precio_arriendo, tipo_inmueble, comuna_id, rut_propietario)
+
+        if crear:
+            messages.success(request, 'Propiedad ingresada con éxito')
+            return redirect('profile')
+        messages.warning(request, 'Hubo un problema al crear la propiedad')
+        return redirect('add_propiedad', context)
+    else:
+        return render(request, 'add_propiedad.html', context)
