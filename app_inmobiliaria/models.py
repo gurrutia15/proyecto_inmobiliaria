@@ -35,6 +35,11 @@ class Comuna(models.Model):
     nombre=models.CharField(max_length=100)
     region=models.ForeignKey(Region, related_name='comunas', on_delete=models.RESTRICT)
 
+    def __str__(self) -> str:
+        nombre=self.nombre
+        codigo=self.id
+        return f' {nombre} {codigo}'
+
 class Inmueble(models.Model):
     inmuebles=(
         ('casa', 'Casa'),
@@ -53,3 +58,10 @@ class Inmueble(models.Model):
     tipo_inmueble=models.CharField(max_length=12, choices=inmuebles)
     comuna=models.ForeignKey(Comuna, related_name='inmuebles', on_delete=models.RESTRICT)     
     propietario=models.ForeignKey(User, related_name='inmueble', on_delete=models.RESTRICT)
+
+    def __str__(self) -> str:
+        nombre = self.nombre
+        comuna = self.comuna
+        tipo = self.tipo_inmueble
+        # propietario = self.propietario
+        return f'{nombre} {comuna} | {tipo}'
