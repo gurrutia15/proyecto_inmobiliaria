@@ -89,6 +89,14 @@ def editar_user_sin_password(rut:str, first_name:str, last_name:str, email:str, 
     user_profile.tipo = tipo
     user_profile.save()
 
+def cambio_password(request, password:str, password_repeat:str):
+    if password != password_repeat:
+        messages.warning(request, 'Las contraseñas no coinciden')
+        return False
+    request.user.set_password(password)
+    request.user.save()
+    messages.success(request, 'Contraseña actualizada con éxito')
+    return True
 
 def obtener_propiedades_comunas(filtro):
     if filtro is None:
