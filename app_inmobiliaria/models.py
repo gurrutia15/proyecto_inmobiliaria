@@ -29,10 +29,10 @@ class UserProfile(models.Model):                # Extender clase usuario
         return f'{nombre} {apellido} | {usuario} | {tipo}'
     
 class Region(models.Model):
-    nombre=models.CharField(max_length=100)
+    nombre=models.CharField(max_length=255)
 
 class Comuna(models.Model):
-    nombre=models.CharField(max_length=100)
+    nombre=models.CharField(max_length=255)
     region=models.ForeignKey(Region, related_name='comunas', on_delete=models.RESTRICT)
 
     def __str__(self) -> str:
@@ -63,5 +63,4 @@ class Inmueble(models.Model):
         nombre = self.nombre
         comuna = self.comuna
         tipo = self.tipo_inmueble
-        # propietario = self.propietario
         return f'{nombre} {comuna} | {tipo}'

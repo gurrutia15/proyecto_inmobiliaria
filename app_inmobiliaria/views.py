@@ -1,12 +1,16 @@
 from django.shortcuts import render, redirect
-from .services import crear_user, editar_user_sin_password, cambio_password, crear_inmueble
+from .services import crear_user, editar_user_sin_password, cambio_password, crear_inmueble, editar_inmueble, eliminar_inmueble
 from django.contrib.auth.decorators import login_required
 from .models import Inmueble, Region, Comuna
 from django.contrib import messages
 
 # Create your views here.
 def index(request):
-    return render(request, 'index.html',)
+    propiedades = Inmueble.objects.all()
+    context = {
+        'propiedades': propiedades
+    }
+    return render(request, 'index.html', context)
 
 def register(request):
     if request.method == 'POST':
@@ -113,3 +117,46 @@ def add_propiedad(request):
         return redirect('add_propiedad', context)
     else:
         return render(request, 'add_propiedad.html', context)
+    
+@login_required
+def edit_propiedad(request, id):
+    if request.method == 'GET':
+        inmueble = Inmueble.objects.get(id=id)
+        regiones = Region.objects.all()
+        comunas = Comuna.objects.all().order_by('nombre')
+        context = {
+            'inmueble': inmueble,
+            'regiones': regiones,
+            'comunas': comunas,
+        } 
+        return render(request, 'edit_propiedad.html', context)
+    else:
+        inmueble_id = id
+        nombre = request.POST['nombre']
+        descripcion = request.POST['descripcion']
+        m2_construidos = int(request.POST['m2_construidos'])
+        m2_totales = int(request.POST['m2_totales'])
+        cantidad_estacionamientos = int(request.POST['cantidad_estacionamientos'])
+        cantidad_habitaciones = int(request.POST['cantidad_habitaciones'])
+        cantidad_baños = int(request.POST['cantidad_baños'])
+        direccion = request.POST['direccion']
+        precio_arriendo = int(request.POST['precio_arriendo'])
+        tipo_inmueble = request.POST['tipo_inmueble']
+        comuna = request.POST['comuna_id']
+        rut_propietario = request.user
+        
+        editar = editar_inmueble(inmueble_id, nombre, descripcion, m2_construidos, m2_totales, cantidad_estacionamientos, cantidad_habitaciones, cantidad_baños, direccion, precio_arriendo, tipo_inmueble, comuna, rut_propietario)
+        if editar:
+            messages.success(request, 'Propiedad editada exitosamente')
+            return redirect('profile')
+        messages.error(request, 'Hubo un problema al editar la propiedad, favor revisar')
+        return redirect('edit_propiedad', id=id)
+    
+def delete_propiedad(request, id):
+    eliminar = eliminar_inmueble(id)
+    if eliminar:
+        messages.warning(request, f'La propiedad {id} fue eliminada')
+        return redirect('profile')
+    else:
+        messages.error(request, f'Hubo un problema al eliminar la propiedad {id}, favor vuelva a intentarlo')
+        return render(request, 'profile.html', context)
