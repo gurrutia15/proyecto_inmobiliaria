@@ -128,9 +128,9 @@
 						id = "comuna_id"
 						name="comuna_id"
 						required>
-						<option value>Selecione una comuna</option>
+						<option value="">Selecione una comuna</option>
 						{% for comuna in comunas %}
-						<option value="{{ comuna.id }}">{{ comuna.nombre }}</option>
+						<option value="{{ comuna.id }}" data-region-id="{{ comuna.region.id }}">{{ comuna.nombre }}</option>
 						{% endfor %}
 					</select>
 				</div>
